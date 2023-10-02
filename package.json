@@ -1,0 +1,30 @@
+{
+  "name": "@react-testing-libary/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berkin571/react-testing.git"
+  },
+  "author": "Berkin Bilgin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Berkin571/react-testing/issues"
+  },
+  "homepage": "https://github.com/Berkin571/react-testing#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "lerna": "^7.3.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@lerna/bootstrap": "^6.6.2"
+  }
+}
